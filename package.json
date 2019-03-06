@@ -1,0 +1,22 @@
+{
+  "name": "get-arbitrary-object",
+  "version": "1.0.0",
+  "description": "Return a object which any properties of it is undefined or function.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint index.js --fix"
+  },
+  "author": "liajoy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liajoy/get-arbitrary-object"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.1.0"
+  }
+}
