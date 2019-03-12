@@ -13,8 +13,11 @@ $ npm install get-arbitrary-object --save
 
 ``` javascript
 const arbitraryObject = getArbitraryObject()
-console.log(ArbitraryObject.a) // undefined
-console.log(ArbitraryObject.a()) // undefined
+try {
+console.log(ArbitraryObject.a)
+console.log(ArbitraryObject.a())
+console.log(ArbitraryObject.a.b.c())
+} catch(err) {} // No error will be throwed
 
 const arbitraryObject = getArbitraryObject({
     a: 1,
