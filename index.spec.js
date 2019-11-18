@@ -20,6 +20,6 @@ test('inject', () => {
   expect(arbitraryObject.foo).toBe(1);
   expect(arbitraryObject.foo + 1).toBe(2);
   expect(arbitraryObject + 1).toBe(3);
-  expect(arbitraryObject.bar('default') + 1).toBe(3);
+  expect(arbitraryObject.bar('default') + 1).toBe(4);
   expect(arbitraryObject.bar('default')).not.toBe(0);
 })
