@@ -7,7 +7,7 @@ test('getArbitraryObject', () => {
     arbitraryObject.foo.bar();
     arbitraryObject.foo + 1;
     arbitraryObject.foo * 1;
-    arbitraryObject.foo >>> 1;
+    arbitraryObject.foo >>> 2;
   }).not.toThrow();
 });
 
